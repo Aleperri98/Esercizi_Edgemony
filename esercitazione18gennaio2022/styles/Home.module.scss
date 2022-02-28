@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin: 50px 10px; 
+        color: lightseagreen;
+    }
+    p {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: gray;
+    border: none;
+  }
+
+  .Size {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      margin-left: 30px;
+      margin-top: 0;
+  }
+
+  .dot:active {
+      background-color: black;
+      color: white;
+  }
+
+  .SelectSize h4 {
+      text-align: left;
+      margin-left: 30px;
+      margin-bottom: 0;
+      font-size: 23px;
+  }

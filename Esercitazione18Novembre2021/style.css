@@ -1,0 +1,53 @@
+#animation{
+    width: 70px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*POSIZIONAMENTO E DEFINIZIONE BUTTON*/
+.btns{
+    width: 300px;
+    height: 100px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#upBtn {
+    align-self: flex-start;
+    position: absolute;
+    left: 200px;
+}
+
+#downBtn {
+    align-self: flex-end;
+}
+
+#rightBtn, #leftBtn {
+    align-self: center;
+}
+
+#upBtn, #rightBtn, #downBtn, #leftBtn {
+    border: 75%;
+    border-style: hidden;
+}
+
+#upBtn:hover, #rightBtn:hover, #downBtn:hover, #leftBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+  }
+
+  #backGround {
+    width: 800px;
+    height: 500px;
+  }
+
+   

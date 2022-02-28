@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "40304030",
+        "name" : "DIYwithPippo",
+        "channel" : {
+            "followers" :"534",
+            "categorychannel" :"DIY",
+            "shop" : "true",
+            "description" : "The best channel for DIY",
+            "dateofbirth" : "30/06/19"
+            
+        },
+        "type" : "game",
+        "category" : "tutorial",
+        "averagevideo" : {
+            "length" : "3:00",
+            "resolution" : "4k",
+            "under18" : "true",
+            "likes" :"1200",
+            "views" : "2000"
+        },
+        "monetization": "true"
+        
+    }
+]
+
+

@@ -1,0 +1,27 @@
+
+
+.headText {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.headText h4 {
+    font-size: 23px;
+    margin-bottom: 0;
+    margin-top: 35px;
+
+}
+
+.Text_block p {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    line-height: 18px;
+
+}

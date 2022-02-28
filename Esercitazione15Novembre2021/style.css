@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+main{
+    width: 85%;
+    margin: 30px auto;
+}
+
+#add{
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    transition: all 0.4s linear;
+}
+
+#add:hover {
+    cursor: pointer;
+    background-color: #00ced1;
+    color: white;
+    border-color: #00ced1;
+}
+
+#create label {
+    display: block;
+    width: 300px;
+    font-size: 14px;
+}
+
+#create input, #create textarea{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+}
+
+#create .row {
+    margin: 10px 0;
+}
+
+#create input {
+    outline: none;
+    border: 2px solid #999;
+    transition: all 0.6s ease;
+}
+
+#create input:focus {
+    border: 2px solid #00ced1;
+    box-shadow: 0px 0px 10px#00ced1;
+}
+
+#create textarea {
+    resize: vertical;
+}

@@ -1,0 +1,7 @@
+pasta: 4
+biscotti: 1
+pomodoro: 3
+acqua: 6
+farina: 1
+cereali: 2
+

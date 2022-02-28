@@ -1,0 +1,44 @@
+.header, .button, .list, .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.addBtn{
+    border-radius: 3em 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+    background-color: lightsteelblue;
+    color: white;
+    font: 25px;
+    font-weight: bolder;
+    border: 3px white solid;
+    cursor: pointer;
+    
+}
+
+.addBtn:active {
+    background-color: rgb(31, 70, 177);
+    position: relative;
+    top: 1px;
+}
+
+.h1Title{
+    text-align: center;
+    font-size: 50px;
+    color: lightseagreen;
+    word-spacing: 10px;
+    text-shadow: 2px 2px lightgray;
+    text-decoration: blink;
+    padding: 50px;
+}
+
+#inputItem{
+    border-radius: 4px;
+    border-color: lightskyblue;
+    padding: 15px;
+    margin: 8px;
+}

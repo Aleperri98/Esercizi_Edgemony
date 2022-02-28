@@ -1,0 +1,46 @@
+.SelectColor{
+  margin-top: 5px;
+}
+
+.SelectColor h4 {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-size: 23px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: none;
+  }
+
+.Color {
+  
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+
+  margin-left: 30px;
+  margin-top: 0;
+
+}
+
+  #first{
+      background-color: black;
+  }
+
+  #second {
+    background-color: darkviolet;
+  }
+
+  #third {
+    background-color: goldenrod;
+  }
+
+  #fourth {
+    background-color: grey;
+  }
+

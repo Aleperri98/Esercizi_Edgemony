@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Widget contatti</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1> Widget contatti in javaScript</h1>
+        </header>
+
+        <form class="searchItem">
+            <label for="search">Cerca tra i contatti:</label>
+            <input type="text" name="search" id="search" placeholder="es: pippo" autocomplete="off">
+            <button>Cerca</button>
+        </form>
+        <form class="addItem">
+            <h2> Aggiungi ai contatti</h2>
+            <label for="contact">Nome:</label>
+            <input type="text" name="contact" id="contact" placeholder="Nome*" autocomplete="off" required>
+            <label for="number">Numero di telefono:</label>
+            <input type="number" name="number" id="number" placeholder="Numero*" autocomplete="off" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="E-mail*" autocomplete="off" required>
+            <button type="button" class="addBtn">Aggiungi</button>
+        </form>
+        <form class="alpha">
+            <button class="orderBtn" type="button">Ordina</button>
+        </form>
+        <ul>
+            <!-- <li>
+                <h3>Rick Sanchez</h3>
+                <p><em>Phone:</em> +39 039567832</p>
+                <p><em>Email:</em><a href="mailto:rick@rickandmorty.com">rick@rickandmorty.com </a></p>
+            </li> -->
+        </ul>
+    </main>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

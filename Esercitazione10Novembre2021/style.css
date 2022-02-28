@@ -1,0 +1,17 @@
+.modal {
+    padding: 30px 0 20px;
+    /* border: 2px solid; */
+    display:flex;
+    justify-content: center;
+
+    border: 1px solid;
+    border-radius: 8px;
+
+    transform: translateY(0);
+    transition: 0.35s;
+}
+
+/* .userPage {
+    /* display: none; */
+/* }  */
+

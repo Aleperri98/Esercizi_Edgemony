@@ -1,0 +1,21 @@
+
+.subtitle h3 {
+        margin: 50px 10px; 
+        color: lightseagreen;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: 50px 30px;
+
+    
+
+    .img {
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.35s;
+    }
+}

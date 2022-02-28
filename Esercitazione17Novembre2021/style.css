@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #000,#999, #f0eaea, #00ced1);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
+
+body {
+    font-family: 'Exo', sans-serif;
+
+}
+
+main{
+    width: 85%;
+    margin: 30px auto;
+}
+
+h1, #container p {
+    color: #00ced1;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    background-color: #ccc;
+    height: 1px;
+    margin: 20px 0;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#add{
+    padding: 12px;
+    background-color: #fff;
+    /* border: 1px solid #aaa; */
+    font-size: 16px;
+    transition: all 0.4s linear;
+    border-radius: 3em 1em;
+    text-decoration: none;
+    position: absolute;
+    right: 75px;
+}
+
+#add:hover {
+    cursor: pointer;
+    background-color: #00ced1;
+    color: white;
+    border-color: #00ced1;
+    transform: scale(1.5);
+    /* transform: skew(10deg, 10deg); */
+    /* transform: scale(2) translate(-100%, -100%); */
+}
+
+#create label {
+    display: block;
+    width: 300px;
+    font-size: 14px;
+}
+
+#create input, #create textarea{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+}
+
+#create .row {
+    margin: 10px 0;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.delete:hover {
+    cursor: pointer;
+    transform: rotate(360deg) scale(2);
+    background-color: red;
+}
+
+#create input {
+    outline: none;
+    border: 2px solid #999;
+    transition: all 0.6s ease;
+}
+
+#create input:focus {
+    border: 2px solid #00ced1;
+    box-shadow: 0px 0px 10px#00ced1;
+}
+
+#create textarea {
+    resize: vertical;
+}
+
+/* #container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+} */
+
+#ullist {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: auto;
+    gap: 50px 40px;
+    
+
+    
+}
+
+li {
+    list-style: none;
+    padding: 25px;
+    background: #f0eaea;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px#00ced1;
+    /* justify-self: center;  */
+    justify-items: center;
+
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+img {
+    width: 75px;
+    height: 100px;
+    padding-bottom: 15px;
+}
+
+.loading {
+    color: #aaa;
+    padding: 15px;
+    border: 1px dashed #aaa;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
+
+
+#list:hover{
+    transform:translate(125%, 75%);
+    transform: scale(1.5);
+}
